@@ -9,7 +9,7 @@ const HomeBanner = () => {
             <h2 className='leading-snug md:leading-normal text-[45px] md:text-[35px] font-bold pb-5'>One Step <br /> Closer To Your <br />
               <span className='text-indigo-400'>Dream Job</span>
             </h2>
-            <p className='zinc-500 mt-3 leading-7  text-xl'>
+            <p className='text-neutral-500 mt-3 leading-7  text-xl'>
               Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.
             </p>
             <button className='job-btn'>Get Started</button>

@@ -11,7 +11,7 @@ const FeaturedJobs = () => {
 
   return (
     <div>
-      <div className='category-container'>
+      <div className='category-container '>
         <div className='text-center'>
           <p className='section-header md:pt-14 pb-2'>Featured Jobs</p>
           <p className='sec-p  zinc-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>
