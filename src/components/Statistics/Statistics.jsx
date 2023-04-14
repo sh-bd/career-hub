@@ -17,25 +17,25 @@ const Statistics = () => {
       <Banner>Statistics</Banner>
       <div className='flex flex-col items-center justify-center px-4'>
 
-        <h2 className='font-bold text-2xl pb-6 text-center'>The marks of my last seven assignemts are down below-</h2>
+        <h2 className='font-bold text-2xl pb-6 text-center'>The marks of my last seven assignments are down below-</h2>
 
-        <div className='w-full md:w-4/5 lg:w-3/4 xl:w-2/3'>
-        <LineChart className='w-full'
-          width={1000}
-          height={300}
-          data={marksArray}
-        >
-          <Line stroke="#8884d8" dataKey="Marks"></Line>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-        </LineChart>
+        <div className='w-full' >
+
+
+          <LineChart className='w-full '
+            width={700}
+            height={300}
+            data={marksArray}
+          >
+            <Line stroke="#8884d8" dataKey="Marks"></Line>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+          </LineChart>
         </div>
       </div>
-
-      
 
     </div>
   );
