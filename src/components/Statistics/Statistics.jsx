@@ -15,12 +15,12 @@ const Statistics = () => {
   return (
     <div>
       <Banner>Statistics</Banner>
-      <div className=' justify-center items-center px-20 grid grid-cols-1'>
+      <div className='flex flex-col items-center justify-center px-4'>
 
-        <h2 className='font-bold text-2xl pb-6 '>The marks of my last seven assignemts are down below-</h2>
+        <h2 className='font-bold text-2xl pb-6 text-center'>The marks of my last seven assignemts are down below-</h2>
 
-        <div className='grid grid-cols-1'>
-        <LineChart
+        <div className='w-full md:w-4/5 lg:w-3/4 xl:w-2/3'>
+        <LineChart className='w-full'
           width={1000}
           height={300}
           data={marksArray}
@@ -34,6 +34,9 @@ const Statistics = () => {
         </LineChart>
         </div>
       </div>
+
+      
+
     </div>
   );
 };

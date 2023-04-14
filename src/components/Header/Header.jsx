@@ -11,7 +11,7 @@ const Header = () => {
       <div className='header relative flex justify-between items-center'>
         <Link to='/'>
           <div className='flex gap-2 justify-center items-center'>
-            <p className='text-2xl md:text-4xl font-bold'>Chakri Khujun</p>
+            <p className='text-4xl md:text-4xl font-bold'>Chakri Khujun</p>
           </div>
         </Link>
         <div className=''>
@@ -73,7 +73,7 @@ const Header = () => {
             title='Open Menu'
             onClick={() => setIsMenuOpen(true)}
           >
-            <Bars3BottomRightIcon className='w-6 h-6 text-gray-600' />
+            <Bars3BottomRightIcon className='w-8 h-8 text-gray-600' />
           </button>
           {
             isMenuOpen && (
@@ -83,11 +83,8 @@ const Header = () => {
                   <div className='flex items-center justify-between mb-4'>
                     <div onClick={() => setIsMenuOpen(false)}>
                       <Link to='/' className='inline-flex items-center'>
-                        <BriefcaseIcon className="h-5 w-5 text-blue-700" />
-                        <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                          Chakri Khujun
-                        </span>
-                      </Link>
+                        <span className=' text-2xl font-bold tracking-wide text-gray-800 '>
+                          Chakri Khujun</span></Link>
                     </div>
                     {/* Dropdown menu close button */}
                     <div>
@@ -102,9 +99,9 @@ const Header = () => {
                   </div>
                   {/* Mobile Nav Items Section */}
                   <nav>
-                    <ul className='space-y-4'>
+                    <ul className='space-y-3'>
                       <li>
-                        <Link to='/' className='font-bold'
+                        <Link to='/' className='font-semibold'
                           onClick={() => { setIsMenuOpen(false) }}
                         >
                           Home
