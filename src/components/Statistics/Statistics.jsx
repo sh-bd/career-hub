@@ -15,10 +15,11 @@ const Statistics = () => {
   return (
     <div>
       <Banner>Statistics</Banner>
-      <div className=' justify-center items-center px-20'>
+      <div className=' justify-center items-center px-20 grid grid-cols-1'>
 
         <h2 className='font-bold text-2xl pb-6 '>The marks of my last seven assignemts are down below-</h2>
 
+        <div className='grid grid-cols-1'>
         <LineChart
           width={1000}
           height={300}
@@ -31,6 +32,7 @@ const Statistics = () => {
           <Tooltip />
           <Legend />
         </LineChart>
+        </div>
       </div>
     </div>
   );

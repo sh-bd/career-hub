@@ -12,7 +12,7 @@ import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blogs from './components/Blogs/Blogs';
 import { jobDetailsLoader, jobsLoader } from './components/Utilities/Loader';
-import JobDetails from './components/JobDetails/JobDetails';
+import JobDetails from './components/Jobdetails/Jobdetails';
 
 const router = createBrowserRouter([
   {
