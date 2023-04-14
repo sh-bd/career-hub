@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.job-container {
+  @apply px-2 md:px-56 py-2 md:py-4 bg-indigo-50
+}
+.home-container {
+  @apply px-2 md:px-56 pt-2 md:pt-4 bg-indigo-50
+}
+
+.footer-container {
+  @apply px-2 md:px-56
+}
+
+.category-container {
+  @apply px-2 md:px-64 pt-2 md:pt-4
+}
+.details-container {
+  @apply px-2 md:px-64 pt-2 md:pt-4
+}
+
+.header {
+  @apply py-2 md:py-0 md:p-8 rounded-lg
+}
+
+.nav-link {
+  @apply text-red-500 font-semibold text-lg;
+}
+
+.nav-link-inactive {
+  @apply text-lg text-blue-700 font-semibold 
+}
+
+.job-type-btn{
+  @apply border rounded-md px-6 py-3 font-semibold text-base mr-4
+}
+
+
+.btn {
+  @apply rounded-lg px-6 py-3 bg-gradient-to-r from-indigo-400 to-violet-400 text-white font-semibold text-base border-none normal-case;
+}
+
+.job-btn {
+  @apply mt-5 btn btn-primary bg-gradient-to-r from-blue-600 to-indigo-500 text-white rounded-md mb-4
+}
+
+.job-btn-two {
+  @apply mt-5 btn btn-primary bg-gradient-to-r from-orange-600 to-amber-800 text-white rounded-md
+}
+
+.job-details-btn {
+  @apply mt-5 py-1 w-2/6 bg-gradient-to-r from-blue-600 to-indigo-500 text-white rounded-md
+}
+
+.job-details-btn-applied-jobs {
+  @apply py-2 px-3 w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white rounded-md
+}
+
+.applied-job-btn {
+  @apply border border-indigo-400 p-2 rounded-md bg-indigo-50 text-indigo-800 text-sm
+}
+
+.sec-p{
+  @apply mt-3 leading-7 text-lg;
+  @apply pb-6;
+}
+
+.section-header {
+  @apply text-4xl font-bold mt-8;
+}
+
+
+.applied-job-btn-active {
+  @apply border border-indigo-400 p-2 rounded-md bg-indigo-800 text-white text-sm
+}
+
+
