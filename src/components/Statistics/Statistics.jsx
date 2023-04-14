@@ -3,7 +3,7 @@ import Banner from '../Banner/Banner';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const Statistics = () => {
-  let marksArray = [
+  const marksArray = [
     { id: 1, name: "A1", Marks: 57 },
     { id: 2, name: "A2", Marks: 60 },
     { id: 3, name: "A3", Marks: 49 },
@@ -15,13 +15,11 @@ const Statistics = () => {
   return (
     <div>
       <Banner>Statistics</Banner>
-      <div className='flex flex-col items-center justify-center px-4'>
+      <div className='flex flex-col items-center justify-center px-2'>
 
-        <h2 className='font-bold text-2xl pb-6 text-center'>The marks of my last seven assignments are down below-</h2>
+        <h2 className='font-semibold text-2xl pb-6 text-center'>The marks of my last seven assignments are down below-</h2>
 
         <div className='w-full' >
-
-
           <LineChart className='w-full '
             width={700}
             height={300}
