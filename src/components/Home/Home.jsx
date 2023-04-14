@@ -16,8 +16,6 @@ const Home = () => {
     setAvailableJobs(availableJobsFromLoader);
   }, [availableJobsFromLoader, setAvailableJobs]);
 
-
-
   return (
     <div>
       <HomeBanner></HomeBanner>

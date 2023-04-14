@@ -66,7 +66,6 @@ const Header = () => {
           <button className='btn btn-primary bg-gradient-to-r from-blue-600 to-indigo-500 text-white'>Start Applying</button>
         </div>
 
-
         <div className='md:hidden'>
           <button
             aria-label='Open Menu'

@@ -13,7 +13,6 @@ const AppliedJobs = () => {
   const [remoteJob, setRemoteJob] = useState(false);
   const [onSiteJob, setOnSiteJob] = useState(false);
 
-
   useEffect(() => {
     const appliedListsDb = getAppliedList();
     const fakeAppliedJob = [];
@@ -52,7 +51,6 @@ const AppliedJobs = () => {
       setShownJobs(fakeShownJobs);
     }
   }, [viewType, appliedJobs, availableJobs])
-
 
   return (
     <div>

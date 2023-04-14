@@ -5,9 +5,7 @@ import FeaturedJob from '../FeaturedJob/FeaturedJob';
 const FeaturedJobs = () => {
   const [availableJobs, setAvailableJobs] = useContext(AvailableJobContext);
   const [showMore, setShowMore] = useState(false);
-
   const showedJobs = showMore ? availableJobs.slice() : availableJobs.slice(0, 4);
-
 
   return (
     <div>
