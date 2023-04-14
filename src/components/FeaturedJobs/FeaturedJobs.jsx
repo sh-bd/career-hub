@@ -7,7 +7,7 @@ const FeaturedJobs = () => {
   const [showMore, setShowMore] = useState(false);
 
   const showedJobs = showMore ? availableJobs.slice() : availableJobs.slice(0, 4);
-  
+
 
   return (
     <div>

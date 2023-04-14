@@ -12,8 +12,8 @@ const Blogs = () => {
       <div className='category-container mt-4 pb-4 flex flex-col gap-3'>
         {
           questions.map(singleQuestion => <Question
-          key={singleQuestion.id}
-          singleQuestion={singleQuestion}
+            key={singleQuestion.id}
+            singleQuestion={singleQuestion}
           ></Question>)
         }
       </div>

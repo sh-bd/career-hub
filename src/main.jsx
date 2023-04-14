@@ -43,12 +43,12 @@ const router = createBrowserRouter([
       {
         path: 'details/:id',
         element: <JobDetails applied={false}></JobDetails>,
-        loader: ({params}) => jobDetailsLoader(params.id)
+        loader: ({ params }) => jobDetailsLoader(params.id)
       },
       {
         path: 'applied/details/:jobId',
         element: <JobDetails applied={true}></JobDetails>,
-        loader: ({params}) => jobDetailsLoader(params.jobId)
+        loader: ({ params }) => jobDetailsLoader(params.jobId)
       },
     ]
   }

@@ -21,7 +21,7 @@ const Main = () => {
           <Footer></Footer>
         </AppliedJobContext.Provider>
       </AvailableJobContext.Provider>
-      <Toaster position="top-right"/>
+      <Toaster position="top-right" />
     </>
   );
 };

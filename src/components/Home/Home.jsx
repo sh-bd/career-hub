@@ -22,7 +22,7 @@ const Home = () => {
     <div>
       <HomeBanner></HomeBanner>
       <JobCategories></JobCategories>
-     <FeaturedJobs></FeaturedJobs>
+      <FeaturedJobs></FeaturedJobs>
     </div>
   );
 };

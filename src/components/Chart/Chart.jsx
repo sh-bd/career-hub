@@ -19,7 +19,7 @@ const Chart = ({ marks }) => {
     }
     return null;
   }
-  
+
   return (
     <ResponsiveContainer width="100%" height={400}>
       <PieChart>

@@ -51,7 +51,7 @@ const JobDetails = ({ applied }) => {
               <div className='flex items-center mt-2'>
 
 
-              <CalendarDaysIcon fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='h-5 w-5 text-indigo-500'></CalendarDaysIcon>
+                <CalendarDaysIcon fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='h-5 w-5 text-indigo-500'></CalendarDaysIcon>
                 <p className='px-2 text-base break-normal text-gray-500'>
                   <span className='font-semibold'>Job Title: </span>{job_title}</p>
 
@@ -65,7 +65,7 @@ const JobDetails = ({ applied }) => {
                 </p>
               </div>
               <div className='flex items-center mt-2'>
-                
+
                 <EnvelopeIcon fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-5 w-5  text-indigo-500" />
                 <p className='px-2 text-base break-normal text-gray-500'>
                   <span className='font-semibold'>Email: </span>

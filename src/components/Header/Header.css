@@ -1,8 +1,8 @@
-ul li{
+ul li {
     margin: 12px;
 }
 
-ul li a:hover{
+ul li a:hover {
     border-radius: 12px;
     padding: 12px 12px;
     background-color: rgb(225, 235, 245);

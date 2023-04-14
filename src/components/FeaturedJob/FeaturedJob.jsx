@@ -16,20 +16,19 @@ const FeaturedJob = ({ showedJob }) => {
         <button disabled className='job-type-btn'>{fulltime_or_parttime}</button>
       </div>
 
-      
       <div className='flex ms-3 pt-4 mb-1'>
         <div className='flex items-center'>
           <MapPinIcon fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-5 w-5 text-gray-500" />
-          <p className='text-lg ml-1 mr-8'> { location}</p>
+          <p className='text-lg ml-1 mr-8'> {location}</p>
         </div>
         <div className='flex items-center'>
           <CurrencyDollarIcon fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-5 w-5 text-gray-500" />
           <p className='text-lg ml-1'> {salary}</p>
         </div>
       </div>
-        <Link to={`details/${id}`}>
-          <button className='btn normal-case ms-3 mb-2 mt-4'>View Details</button>
-        </Link>
+      <Link to={`details/${id}`}>
+        <button className='btn normal-case ms-3 mb-2 mt-4'>View Details</button>
+      </Link>
     </div>
   );
 };
